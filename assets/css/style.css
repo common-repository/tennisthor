@@ -1,0 +1,2157 @@
+.tabs table td, .tabs table td
+{
+	border-bottom: 0px #ccc solid !important;
+}
+
+.loginscreen	.btn-primary {
+
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+
+}
+
+.loginscreen .btn-primary:hover, .loginscreen .btn-primary:focus, .loginscreen .btn-primary:active, .loginscreen .btn-primary.active, .loginscreen .open .dropdown-toggle.btn-primary
+{
+	background-color: #179d82;
+	border-color: #179d82;
+	color: #FFFFFF;
+}
+	.loginscreen .full-width {
+
+    width: 100% !important;
+
+}
+	.loginscreen .btn {
+    border-radius: 3px;
+}
+.loginscreen .btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+}
+.loginscreen .btn-social {
+    position: relative;
+
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding:5px 5px 5px 46px;
+}
+.loginscreen .btn-block {
+    display: block;
+    width: 100%;
+}
+	.loginscreen .btn-google {
+
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0,0,0,0.2);
+
+}
+	.loginscreen .btn-social > :first-child {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2);
+
+}
+	.loginscreen .btn-block + .btn-block {
+
+    margin-top: 5px;
+
+}
+	.loginscreen .fa {
+
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+        line-height: 1;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+	.loginscreen .btn-group-sm > .btn, .loginscreen .btn-sm {
+
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+
+}
+	.loginscreen .btn {
+
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+	.loginscreen .form-control, .loginscreen .single-line {
+
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+
+}
+	.loginscreen .form-control {
+
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+	.loginscreen input[type="text"], .loginscreen input[type="email"], .loginscreen input[type="password"], .loginscreen textarea
+{
+	margin:0px;
+	margin-top:10px;
+	padding:10px;	
+	color:#000 !important;
+}
+
+.loginscreen .error
+{
+	color:red;
+	margin-bottom:20px;
+}
+
+
+.calendar_agenda
+{
+	padding: 8px;
+	border: 1px solid #000;
+	width:0px;
+	display: inline-block;
+	margin: auto 0;
+	float: left;
+	margin-right: 5px;	
+}
+.calendar_agenda_gray{
+	background-color: gray;	
+}
+.calendar_agenda_par_blue{
+	background-color: #0000ff;	
+}
+.calendar_agenda_orange{
+	background-color: orange;	
+}
+.calendar_agenda_blue{
+	background-color: #a4c2f4;	
+}
+.calendar_agenda_white{
+	background-color: white;	
+}
+.calendar_agenda_magenta
+{
+	background-color: magenta;	
+}
+.calendar_agenda_red{
+	background-color: red;	
+}
+
+.calendar_agenda_green{
+	background-color: green;	
+}
+
+
+
+#calendar table td, #calendar table th, #calendar table td, #calendar table th {
+    padding: 0px;
+    text-align: center;
+}
+
+#calendar table, #calendar table {
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.fc-time-grid-event .fc-content
+{
+	text-align: left;
+}
+
+.fc-time-grid-event.fc-short .fc-time::before {
+    content: attr(data-start);
+    display: none;
+}
+
+.fc-time-grid .fc-event .fc-time::after {
+    content: attr(data-full);
+    display: none;
+}
+
+.tournament_scheduler_tooltip_div
+{
+	width:auto;height:auto;position:absolute;z-index:10001;padding:10px 10px 10px 10px ;  line-height: 200%;	
+	display: block;
+	font-size: .85em;
+	border-radius: 3px;
+	border: 1px solid #3a87ad;	
+	color: #fff;
+}
+
+.fc-event
+{
+	cursor: pointer;
+}
+
+.calendar_court_img
+{
+	max-width: 70px;
+	max-height: 70px;	
+}
+
+.court_calendar_main_div
+{
+	color: #000;
+}
+
+.reservation_lbl
+{
+	color:#000;
+}
+
+.reservation_lbl_white
+{
+	color:#fff;
+}
+
+#calendar table th {
+	color: #676767;
+	font: inherit;
+	font-weight: inherit;
+	border-bottom: 1px#888 solid;
+	font-weight: 600;
+}
+
+.label-primary, .badge-primary {
+	background-color: #1ab394 !important;
+	color:#FFFFFF !important;
+}
+.badge {
+
+    background-color: #d1dade;
+    color: #5e5e5e;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-shadow: none;
+
+display: inline-block;
+min-width: 10px;
+line-height: 1;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+border-radius: 10px;
+padding: 3px 7px;
+}
+
+.m-t {
+    margin-top: 15px;
+}
+
+#calendar .fc-header-toolbar {
+    display: none;
+}
+
+.timelinecal {
+    border-right: 1px solid #e4e4e4;
+	background-color:#1AB394;
+	color:white;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 10px;
+    width: 65px;
+    display:inline-block    
+}
+
+.slick_demo_2_tmp {
+    padding: 0px;
+    margin-left: 20px;
+}
+.m-b {
+    margin-bottom: 15px;
+}
+
+.timelinecal h2
+{
+	font-size:18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color:#fff;
+}
+.timelinecal p
+{
+	margin: 0px !important;
+	line-height: initial !important;
+	margin-bottom: 4px !important;
+}
+
+.slick_demo_2_tmp
+{
+	padding:0px;
+	margin-left: 20px;
+}
+
+.slick-slide .ibox-content
+{
+	float: left;
+	display: inline;
+	clear: initial;
+	border-right: 1px solid #e4e4e4;
+	background-color: #1AB394;
+	color: white;
+	cursor: pointer;
+	padding: 6px;
+	font-size: 10px;
+	width: 100%;
+}
+
+.slick-slide .ibox-content h2
+{
+		font-size:18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.slick-slide .ibox-content p
+{
+	margin: 0px;
+}
+
+
+
+.slick-prev::before, .slick-next::before {
+	font-size:30px !important;
+}
+
+.active_date.ibox-content {
+    background-color: red !important;
+}
+
+.slick-prev::before, .slick-next::before {
+	color: #1AB394 !important;
+}
+
+#load_time_line_days
+{
+    border:dotted 1px;
+    white-space:nowrap;
+    overflow-x:auto;	
+    display: inline-block;
+    width: auto;
+    float: left;
+}
+
+.prev_btn
+{
+	display: inline;
+	margin-top: 25px !important;
+	float: left;	
+	font-size: 25px;
+	color: #1AB394;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.next_btn
+{
+	display: inline;
+	margin-top: 25px !important;
+	float: left;	
+	font-size: 25px;
+	color: #1AB394;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background:#fff;
+	opacity: 0.8;
+	filter: alpha(opacity=0.5) !important;
+	z-index: 99;
+	padding: 10% 10% 10% 45%;
+}
+#overlay img
+{
+	margin-top: 0px;
+	z-index: 9999;
+}
+
+
+.mtop
+{
+	margin-top:5px;	
+}
+
+.calendar_user_img15
+{
+	max-width: 15px;
+	max-height: 15px;
+	margin-right: 5px;
+}
+
+.calendar_user_img30
+{
+	max-width: 30px;
+	max-height: 30px;
+	margin-right: 5px;
+}
+
+.calendar_user_img60
+{
+	max-width: 30px;
+	max-height: 30px;
+	margin-right: 5px;
+}
+
+.calendar_user_img_a
+{
+	padding: 2px !important;
+	margin-bottom:1px;
+}
+
+/*.fc-time-grid-event.fc-short .fc-time::before {
+    content: no-open-quote !important;
+}*/
+
+.fc-time-grid-event.fc-short .fc-time::before {
+    content: "" !important;
+}
+.fc-time-grid-event.fc-short .fc-time::after {
+    content: "" !important;
+}
+
+.event_right_cls
+{
+	text-align: right;
+}
+
+.fc-time-grid-event.fc-short .fc-time, .fc-time-grid-event.fc-short .fc-title
+{
+	width:100%;
+}
+
+.calendar_user_img_a img {
+    vertical-align: middle;
+}
+
+.table-responsive
+{
+	overflow-x:auto;
+}
+
+#adminlist input.form-control {
+    width: 100%;
+    padding: 0px;
+}
+
+#adminlist tfoot {
+    display: table-header-group;
+}
+
+.tourlists table.dataTable tfoot th, .tourlists table.dataTable tfoot td {
+
+    padding: 10px 5px 10px 5px !important;
+    border-top: 1px solid #111 !important;
+}
+
+.tourlists table th, .tourlists table td
+{
+	font-size:13px !important;
+}
+
+.tourlists table.dataTable tfoot th input
+{
+	height:34px;
+}
+
+.tourlists .dataTables_filter
+{
+	display:none;
+}
+
+
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: transparent;
+  box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+}
+
+.label {
+  width: 100%;
+  padding: 15px 20px;
+  background: #e5e5e5;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  color: #7f7f7f;
+  transition: background 0.1s, color 0.1s;
+}
+
+.label:hover {
+  background: #d8d8d8;
+}
+
+.label:active {
+  background: #ccc;
+}
+
+.input:focus + .label {
+  box-shadow: inset 0px 0px 0px 3px #2aa1c0;
+  z-index: 1;
+}
+
+.input:checked + .label {
+  background: #fff;
+  color: #000;
+}
+
+@media (min-width: 600px) {
+  .label {
+    width: auto;
+  }
+}
+
+
+.panel {
+  display: none;
+  padding: 20px 30px 30px;
+  background: #fff;
+}
+
+@media (min-width: 600px) {
+  .panel {
+    order: 99;
+  }
+}
+
+.input:checked + .label + .panel {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #eceeef;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #dff0d8;
+}
+
+.table-hover .table-success:hover {
+  background-color: #d0e9c6;
+}
+
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: #d0e9c6;
+}
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #d9edf7;
+}
+
+.table-hover .table-info:hover {
+  background-color: #c4e3f3;
+}
+
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+  background-color: #c4e3f3;
+}
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #fcf8e3;
+}
+
+.table-hover .table-warning:hover {
+  background-color: #faf2cc;
+}
+
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: #faf2cc;
+}
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #f2dede;
+}
+
+.table-hover .table-danger:hover {
+  background-color: #ebcccc;
+}
+
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+  background-color: #ebcccc;
+}
+
+.thead-inverse th {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.thead-default th {
+  color: #464a4c;
+  background-color: #eceeef;
+}
+
+.table-inverse {
+  color: #fff;
+  background-color: #292b2c;
+}
+
+.table-inverse th,
+.table-inverse td,
+.table-inverse thead th {
+  border-color: #fff;
+}
+
+.table-inverse.table-bordered {
+  border: 0;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table-responsive.table-bordered {
+  border: 0;
+}
+
+
+.tennisthor_btn {
+
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+
+.navbar
+{
+	margin-bottom:0px;
+}
+
+.club-logo
+{
+	max-width:250px;
+	display: inline;
+}
+
+.landing-page .carousel, .landing-page .carousel .item
+{
+	height: 500px;
+}
+
+.landing-page .header-back
+{
+	height: 500px;
+}
+
+.landing-page .banner_inner_pages
+{
+	height: 200px !important;
+}
+
+.landing-page .carousel-caption.blank
+{
+	top: 0px !important;
+}
+
+.login_widget .carousel-caption
+{
+	right: 0;
+	text-shadow: none;
+	color:#000 !important;	
+}
+
+.login_widget .form-control
+{
+	color: #000;
+}
+
+
+
+.carousel-caption .loginscreen
+{
+	background-color:#F3F3F4;
+	padding:20px;	
+}
+.carousel-caption .loginscreen a.link
+{
+	color: #337ab7;
+	text-decoration: none;	
+}
+
+.login_widget .button_color
+{
+	background-color: #84fb7d !important;
+	color:#000;	
+}
+
+.landing-page .navbar-default .nav li a
+{
+	font-size: 13px;
+}
+
+.login_widget
+{
+	
+}
+
+.landing-page .contactus
+{
+	padding-top: 0px;
+}
+
+.landing-page .contactus .list-inline > li
+{
+	padding: 5px;
+	display: inline-flex;
+	clear: both;
+	float: left;
+	margin: 0 auto;
+}
+
+.landing-page .contactus .list-inline > li span
+{
+margin-top: 2px;
+margin-left: 5px;
+}
+
+.landing-page .contactus .social-icon .alink
+{
+	padding: 0px;
+	background: none;
+	color: #1ab394;
+	width: auto;
+}
+
+.landing-page .contactus .social-icon .alink:hover
+{
+	text-decoration: underline;
+}
+
+.landing-page .contactus .social-icon a
+{
+	background: #1ab394;
+	color: #fff;
+	padding: 0;
+    padding-top: 0px;
+	height: 28px;
+	width: 28px;
+	display: block;
+	border-radius: 50px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+.form-horizontal .error, .clubsitefrmcls .error
+{
+	font-weight: normal;
+}
+
+.landing-page .contact
+{
+	background-image: none;
+}
+
+.language_dropdown
+{
+	z-index: 999999;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	margin-top: -35px;
+	float: left;	
+}
+
+.login_widget label.error
+{
+	float: left;
+}
+
+.forgotpassword_page .passwordBox
+{
+	padding: 0px 20px 20px 20px
+}
+
+.forgotpassword_page .ibox-content
+{
+	padding: 0px 20px 20px 20px;
+	border-width:0px 0;
+}
+
+
+html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+.ui-menu {
+    list-style:none;
+    padding: 2px;
+    margin: 0;
+    display:block;
+    float: left;
+}
+.ui-menu .ui-menu {
+    margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+    margin:0;
+    padding: 0;
+    zoom: 1;
+    float: left;
+    clear: left;
+    width: 100%;
+    background: aliceblue;
+    border-bottom: 1px solid #c0c0c0;
+    padding-top: 6px;
+}
+.ui-menu .ui-menu-item div {
+    text-decoration:none;
+    display:block;
+    padding:.2em .4em;
+    line-height:1.5;
+    zoom:1;
+    cursor: pointer;
+}
+.ui-menu .ui-menu-item div.ui-state-hover,
+.ui-menu .ui-menu-item div.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+#adminlist input.form-control {
+    width: 100%;
+    padding: 0px;
+}
+
+/*schema template css */
+#mainDivtop {
+         position: relative;
+         xborder-bottom: 1px solid red;
+         }
+
+#mainDivtop:after {
+  content : "";
+  position: absolute;
+  right    : 100%;
+  z-index: 100;
+  top  : 50%;
+  width  : 2px;
+  height   : 50%;  /* or 100px */
+  background: #000;
+}
+
+
+
+#mainDiv_bottom {
+         position: relative;
+         xborder-bottom: 1px solid red;
+         }
+
+#mainDiv_bottom:after {
+  content : "";
+  position: absolute;
+  right    : 100%;
+  z-index: 100;
+  top  : 0%;
+  width  : 2px;
+  height   : 50%;  /* or 100px */
+  background: #000;
+}
+
+
+
+#full_border {
+         position: relative;
+         xborder-bottom: 1px solid red;
+         }
+
+#full_border:after {
+  content : "";
+  position: absolute;
+  right    : 0%;
+  z-index: 100;
+  top  : 0%;
+  width  : 2px;
+  height   : 100%;  /* or 100px */
+  background: #000;
+}
+
+.treeview_table_cls .table
+{
+	margin-bottom: 0px;
+}
+
+.treeview_table_cls
+{
+	width: auto !important;
+}
+
+
+
+.treeview_line_td
+{
+	vertical-align:middle;min-width: 10px;
+	padding: 0px !important;
+}
+.treeview_hr
+{
+	border:1px solid #000	
+}
+
+.tournament_scrol_main_div td{
+	height: 52px;
+	/*background-color: #EEEEEE;*/
+}
+
+.schema_table_border_none {
+	border: 1px solid #fff !important;
+	height: 52px;
+}
+
+.schema_tables td, .schema_tables th
+{
+	border: 1px solid #000 !important;
+}
+
+.treeview_table_cls .table-striped > tbody > tr:nth-of-type(2n+1)
+{
+	
+	background-color: #e1e1e1 !important;
+}
+
+.player_counter
+{
+	color: #fff;
+	margin-top: 5px;
+	border-radius: 8px;
+	padding:5px;
+	float: left;
+	background-color: #4C9900;
+	padding-top:1px;
+	height: 20px;
+	font-size: 12px;
+}
+
+.player_counter:hover{
+	text-decoration:none;
+	color: #fff;
+}
+
+.container_scroll
+{
+	max-width: 100% !important;
+	overflow-x: auto !important;	
+	overflow-y: -moz-hidden-unscrollable !important;	
+}
+.container_scroll td
+{
+	padding: 0px;
+}
+
+.redips-drag {
+	margin: auto;
+	text-align: center;
+	min-width: 90px;
+	max-width: 110px;
+	min-height: 40px;
+	font-size: 9pt;
+	line-height: normal;
+	border: 1px solid SteelBlue;
+	background-color: white;
+}		
+
+.redips-mark
+{
+	background-color: #d0cecc;
+}
+
+.team_img_box img {
+    float: left;
+}
+
+.player_img
+{
+	background-color: white !important;
+}
+
+.player_img td
+{
+	border: 0px solid #000 !important;
+	height: auto !important;
+}
+
+.managetournament > thead > tr > th, .managetournament > tbody > tr > th, .managetournament > tfoot > tr > th, .managetournament > thead > tr > td, .managetournament > tbody > tr > td, .managetournament > tfoot > tr > td
+{
+	padding: 4px;
+}
+
+.player_img .redips-mark
+{
+	background-color: white !important;
+}
+
+#redips-drag table td, #redips-drag table th
+{
+	text-align:center;
+}
+
+.managetournament td div img
+{
+	float:left;
+}
+
+.redips-white
+{
+	background-color:#fff;
+}
+
+.grouptablescss
+{
+	border: 2px solid #858585 !important;
+}
+
+.player_boxes
+{
+	border-right: 1px solid #858585 !important;
+}
+
+.grouptablescss td, .grouptablescss th
+{
+	border: 1px solid #858585 !important;
+}
+
+.managetournament > thead > tr > th, .managetournament > tbody > tr > th, .managetournament > tfoot > tr > th, .managetournament > thead > tr > td, .managetournament > tbody > tr > td, .managetournament > tfoot > tr > td
+{
+	padding: 4px !important;
+}
+
+.player_img .redips-mark
+{
+	background-color: white !important;
+}
+
+#redips-drag table td, #redips-drag table th
+{
+	text-align:center;
+}
+
+.managetournament td div img
+{
+	float:left;
+}
+
+.managetournament
+{
+	width:auto !important;
+}
+
+.tournament_group_tab td, .tournament_group_tab th
+{
+	text-align: center;
+}
+
+.tabs-container .nav-tabs > li > a 
+{
+	padding: 10px 20px 10px 25px;
+}
+/*schema template css */
+
+/* calendar css start*/
+  .fc-view-container {
+    overflow-x: scroll;
+  }
+  
+#external-events-listing .fc-event
+{
+	margin-bottom:10px;
+	cursor: pointer;
+}
+
+.tournament_scheduler .fc-time-grid-event.fc-short .fc-time span
+{
+	display: block;
+}
+
+.tournament_scheduler .calendar_user_img_a
+{
+	font-size: 11px;
+}
+
+.tournament_scheduler .event_right_cls .fa-remove
+{
+	font-size:11px;
+}
+
+.tournament_scheduler .fc-time-grid-event .fc-time
+{
+	white-space: normal !important;
+}
+
+.tournament_scheduler_tooltip_div
+{
+	width:auto;height:auto;position:absolute;z-index:10001;padding:10px 10px 10px 10px ;  line-height: 200%;
+	
+	display: block;
+	font-size: .85em;
+	border-radius: 3px;
+	border: 1px solid #3a87ad;	
+	color: #fff;
+}
+
+.event_right_cls
+{
+	text-align: right;
+}
+
+.fc-time-grid-event.fc-short .fc-time, .fc-time-grid-event.fc-short .fc-title
+{
+	width:100%;
+}
+
+.calendar_court_img
+{
+	max-width: 70px;
+	max-height: 70px;	
+}
+
+.court_calendar_main_div
+{
+	padding-left:25px;
+	padding-right:25px;
+	color: #000;
+}
+
+.court_calendar_right
+{
+	padding-top:10px;
+}
+
+.player_a_cls
+{
+	background-color: transparent !important;
+	border-color: transparent !important;
+	padding:0px !important;
+	color: #fff;
+	text-decoration: none;
+}
+
+.player_a_cls:hover, .player_a_cls:active, .player_a_cls:focus
+{
+	color: #fff;
+	text-decoration: none;
+}  
+/* calendar css end*/
+
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=0.5);
+	z-index: 999999;
+	padding: 20% 100% 20% 40%;
+}
+#overlay img
+{
+	margin-top: 0px;
+	z-index: 9999;
+}
+
+.tourlists #adminlist_filter,.team_games_table #adminlist_filter
+{
+	display:none;
+}
+
+.calendar_agenda
+{
+	padding: 8px;
+	border: 1px solid #000;
+	width: 10px;
+	display: inline-block;
+	margin: auto 0;
+	float: left;
+	margin-right: 5px;	
+}
+.calendar_agenda_gray{
+	background-color: gray;	
+}
+.calendar_agenda_par_blue{
+	background-color: #0000ff;	
+}
+.calendar_agenda_orange{
+	background-color: orange;	
+}
+.calendar_agenda_blue{
+	background-color: #a4c2f4;	
+}
+.calendar_agenda_white{
+	background-color: white;	
+}
+.calendar_agenda_magenta
+{
+	background-color: magenta;	
+}
+.calendar_agenda_red{
+	background-color: red;	
+}
+
+.calendar_agenda_green{
+	background-color: green;	
+}
+
+.mtop
+{
+	margin-top:5px;	
+}
+
+.user_n_logged
+{
+	margin-top: 5px !important;
+}
+
+.club_events .navy-line
+{
+	margin-top: 0px;
+}
+.club_events
+{
+	padding-top:0px !important;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; }
+#sortable li { margin: 3px 3px 3px 0; padding: 1px; float: left; text-align: center; max-width:150px; min-height:180px; min-width:150px; }
+#sortable .remove-cls
+{
+	clear:both;
+	font-size: 13px;
+	font-weight: normal;	
+}
+
+#sortable .remove-cls:hover
+{
+	text-decoration: underline;
+}
+
+.club_events #sortable li {
+	margin-right: 5px
+}
+
+.club_events #sortable
+{
+	padding-left: 30px;
+}
+
+.club_events .ui-state-default img
+{
+	display: inline;
+	margin-top: 15px;
+}
+.club_events .ui-state-default label
+{
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+.event_page .lightBoxGallery
+{
+	text-align: left;
+}
+
+.event_page .lightBoxGallery a img {
+    border: 1px solid #e4e4e4;
+}
+
+.fb_share_btn{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+	
+	position: absolute;
+	top: 0;
+	right: 0;	
+	background-color: #365899;
+	padding: 5px;
+}
+.fb_share_btn a{  
+	color: #fff;
+	padding: 5px;
+}
+
+.fb_share_btn_other_pages{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+	top: 0;
+	right: 0;	
+	background-color: #365899;
+	padding: 5px;
+}
+.fb_share_btn_other_pages a{  
+	color: #fff;
+	padding: 5px;
+}
+.tabs-container {
+    position: relative;
+}
+
+.tennisthor_titles h1
+{
+	display: inline;
+}
+
+/* menu css */
+
+ul.dropdown-menu
+{
+	margin-top:-15px !important;
+}
+.navbar .dropdown-menu
+{
+	right: auto !important;
+	left: 0 !important;	
+}
+
+.dropdown-menu > li.kopie > a {
+    padding-left:5px;
+}
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+ }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:#555;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+  text-decoration: none;
+}  
+
+
+.fb_share_btn_other_pages{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+	top: 0;
+	right: 0;	
+	background-color: #365899;
+	padding: 5px;
+}
+.fb_share_btn_other_pages a{  
+	color: #fff;
+	padding: 5px;
+}
+
+.redips-drag_game_result {
+	margin: 0;
+	text-align: center;
+	min-width: 90px;
+	max-width: 120px;
+	min-height: 40px;
+	font-size: 9pt;
+	line-height: normal;
+	border: 1px solid SteelBlue;
+	background-color: white;
+	display: inline-table;
+}    
+.result_game td
+{
+	padding: 5px;
+	background: #e6e6e6;
+	height: 40px;
+}
+
+.result_game
+{
+	border: 1px solid #4f4e54 !important;
+}
+
+.dark_back
+{
+	background-color: #E1E1E1 !important;
+}
+.gm_rs_front > thead > tr > th, .gm_rs_front > tbody > tr > th, .gm_rs_front > tfoot > tr > th, .gm_rs_front > thead > tr > td, .gm_rs_front > tbody > tr > td, .gm_rs_front > tfoot > tr > td
+{
+	border: 1px solid #080909;
+}
+
+
+  
+@media (max-width: 767px) {
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: red;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 2px;   
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: #333;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+     background-color: #ccc;
+   }
+
+   .navbar-nav .open .dropdown-menu {
+     border-bottom: 1px solid white; 
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      padding-left: 20px;
+   }
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 30px;
+   }
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+}  
+
+.landing-page .container
+{
+	overflow: unset;
+}
+/* menu css */
+
+.footer-nav li
+{
+	list-style: none;
+    list-style-type: none;
+    display: inline;
+
+}
+
+ul.footer-nav
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-nav li:not(:first-child):before {
+    content: " | ";
+    color:#c8c8c8;
+}
+
+.footer-nav li a
+{
+	color: #c7c7c7;
+}
+.footer-nav li a:hover
+{
+	color: #179D82;
+	text-decoration: underline;
+}
+
+.required_star
+{
+	color:red;	
+}
+
+.greenthumb
+{
+	color:green;
+}
+.redthumb
+{
+	color:red;
+}
+
+.fc-time-grid-event.fc-short .fc-time::before {
+    content: no-open-quote !important;
+}
+
+/* timeline calendar start*/
+.slick-slide
+{
+	border-right: 1px solid #e4e4e4;
+}
+
+.slick-active .ibox-content
+{
+	background-color: #1AB394;
+	color: white;
+	cursor: pointer;
+}
+
+.active_date.ibox-content
+{
+	background-color: red;
+}
+
+.active_date .ibox-content
+{
+	background-color: red !important;
+}
+
+
+.timelinecal
+{
+	float: left;
+	display: inline;
+	clear: initial;
+	border-right: 1px solid #e4e4e4;
+	background-color: #1AB394;
+	color: white;
+	cursor: pointer;
+	padding: 6px;
+	font-size: 10px;
+	width: 65px;
+}
+
+.timelinecal h2
+{
+	font-size:18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.timelinecal p
+{
+	margin: 0px;
+}
+
+.slick_demo_2_tmp
+{
+	padding:0px;
+	margin-left: 20px;
+}
+
+.slick-slide .ibox-content
+{
+	float: left;
+	display: inline;
+	clear: initial;
+	border-right: 1px solid #e4e4e4;
+	background-color: #1AB394;
+	color: white;
+	cursor: pointer;
+	padding: 6px;
+	font-size: 10px;
+	width: 100%;
+}
+
+.slick-slide .ibox-content h2
+{
+		font-size:18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.slick-slide .ibox-content p
+{
+	margin: 0px;
+}
+
+.slick-prev
+{
+	display: inline !important;
+	float: left !important;
+	margin-top: 20px !important;
+	margin-right: 15px !important;	
+	position: relative !important;
+	left: 0px !important;
+}
+
+.slick-next
+{
+	display: inline !important;
+	margin-top: 20px !important;
+	margin-left: 5px !important;	
+	position: relative !important;
+	right: 0px !important;
+}
+
+.reservation_page .fc-header-toolbar
+{
+	display: none;
+}
+
+.slick-prev::before, .slick-next::before {
+	font-size:30px !important;
+}
+/* timeline calendar end*/
+
+.reservation_lbl
+{
+	color:#000;
+}
+
+.reservation_lbl_white
+{
+	color:#fff;
+}
+
+.fc-v-event
+{
+	padding:0px;
+}
+
+.fc-v-event .fc-time
+{
+	white-space: inherit !important;
+}
+
+.calendar_user_img15
+{
+	max-width: 15px;
+	max-height: 15px;
+	margin-right: 5px;
+}
+
+.calendar_user_img30
+{
+	max-width: 30px;
+	max-height: 30px;
+	margin-right: 5px;
+}
+
+.calendar_user_img60
+{
+	max-width: 30px;
+	max-height: 30px;
+	margin-right: 5px;
+}
+
+
+/* image gallery start */
+.image_gallery #sortable li
+{
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+	margin-bottom: 10px !important;	
+}
+
+/* image gallery end */
+
+.event_title_clubs
+{
+	font-size:15px;
+}
+
+.event_description p
+{
+	color:#000 !important;
+}
+
+.home_club_events .navy-line
+{
+	margin-top: 30px;
+}
+
+.home_club_events .features-text
+{
+	margin-top: 30px;
+}
+.landing-page .contact
+{
+	margin-top: 10px;
+}
+
+.ui-autocomplete-loading { background:url('../../site/images/loading.gif') no-repeat right center }
+
+.footer_logo_text
+{
+	display:inline;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav
+	{
+		margin: 56px -15px;
+	}
+	
+	.language_dropdown
+	{
+		margin-top: 20px;
+	}
+}
+
+
+.reservation_page select
+{
+	width:225px;
+}
+
+.landing-page .navbar-default.navbar-scroll
+{
+	padding:0px !important;
+}
+
+@media only screen and (min-width: 768px) {
+.navbar-right {
+    margin-top: 15px;
+}
+}
+
+.weather_con_text
+{
+	padding-left: 5px;
+	font-size: 15px;	
+}
+.weather_con_text label
+{
+	font-size: 13px;	
+}
+
+.city_no_suggestions
+{
+	width: 91%;
+	float: left;
+	background-color: #cdceca;
+	padding: 7px;
+	z-index: 9;
+	position: absolute;
+}
+
+#football_game_result_table th, #football_game_result_table td
+{
+	text-align: center;
+}
+
+
+.entry-content table td, .entry-content table th, .comment-body table td, .comment-body table th
+{
+	padding: 0 !important;
+}
+
+.tournament_scheduler #calendar .fc-header-toolbar
+{
+	display:block;
+}
+
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+border-color:#e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 15px 15px 7px;
+    min-height: 48px;
+}
+
+.m-t {
+
+    margin-top: 15px;
+
+}
+
+.clearfix 
+{
+	clear:both;
+}
+
+.message-input {
+  height: 90px !important;
+}
+.chat-avatar {
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+}
+.chat-user-name {
+  padding: 10px;
+}
+.chat-user {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e7eaec;
+}
+.chat-user a {
+  color: inherit;
+}
+.chat-view {
+  z-index: 20012;
+}
+.chat-users,
+.chat-statistic {
+  margin-left: -30px;
+}
+@media (max-width: 992px) {
+  .chat-users,
+  .chat-statistic {
+    margin-left: 0;
+  }
+}
+.chat-view .ibox-content {
+  padding: 0;
+}
+.chat-message {
+  padding: 10px 20px;
+}
+.message-avatar {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #e7eaec;
+  border-radius: 4px;
+  margin-top: 1px;
+}
+.chat-discussion .chat-message.left .message-avatar {
+  float: left;
+  margin-right: 10px;
+}
+.chat-discussion .chat-message.right .message-avatar {
+  float: right;
+  margin-left: 10px;
+}
+.message {
+  background-color: #fff;
+  border: 1px solid #e7eaec;
+  text-align: left;
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 4px;
+}
+.chat-discussion .chat-message.left .message-date {
+  float: right;
+}
+.chat-discussion .chat-message.right .message-date {
+  float: left;
+}
+.chat-discussion .chat-message.left .message {
+  text-align: left;
+  margin-left: 55px;
+}
+.chat-discussion .chat-message.right .message {
+  text-align: right;
+  margin-right: 55px;
+}
+.message-date {
+  font-size: 10px;
+  color: #888888;
+}
+.message-content {
+  display: block;
+}
+.chat-discussion {
+  background: #eee;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+}
+.chat-users {
+  overflow-y: auto;
+  height: 400px;
+}
+.chat-message-form .form-group {
+  margin-bottom: 0;
+}
+
+.chat_div_row .col-md-9 {
+    width: 75%;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.chat_div_row .col-md-3, .chat_div_row .col-md-9
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.chat_div_row .row {
+
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.chat_div_row
+{
+	display: inline-flex;
+	width: 100%;	
+}
+
+.row {
+  width:100%;
+}
+
+.tennisthor_login_cls
+{
+  max-width: 350px;
+}
+
+.passwordBox {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 100px 20px 20px 20px;
+}
+
+.clubsitefrmcls .error
+{
+  color:red;
+  font-weight: normal;
+}
+
+.clubsitefrmcls .form-control
+{
+  color:#000 !important;
+}
+
+#signupfrm .form-control
+{
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;  
+}
+
+#signupfrm .btn-primary
+{
+  display: inline-block;
+padding: 6px 12px;
+margin-bottom: 5px;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+}
